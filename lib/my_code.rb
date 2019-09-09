@@ -10,3 +10,19 @@ end
 def map_to_no_change (source_array)
   source_array
 end
+
+def map_to_double (source_array) 
+  new_array =[]
+  source_array.length.times  {|index|
+    new_array.push(source_array[index] * 2)
+  }
+  new_array
+end
+
+def map_to_square (source_array) 
+  new_array =[]
+  source_array.length.times  {|index|
+    new_array.push(source_array[index] ** 2)
+  }
+  new_array
+end
